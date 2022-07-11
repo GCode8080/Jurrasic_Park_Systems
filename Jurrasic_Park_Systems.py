@@ -1,7 +1,6 @@
 
 import time
 
-i = 1000
 
 print("Jurassic Park, System Security Interface")
 print("Version 4.0.5, Alpha E")
@@ -24,10 +23,12 @@ if "access" in c:
 
 time.sleep(.2)
 
-while i > 1:
+i = 1
+
+while i < 10:
     print("YOU DIDN'T SAY THE MAGIC WORD!!!")
     time.sleep(.1)
-    i+1
+    i = i + 1
 
 
 time.sleep(20)
